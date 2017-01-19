@@ -1,0 +1,25 @@
+<div layout="row"  layout-align="center center">
+      <div flex="25" class="md-inline-form" layout-padding>
+       <form ng-submit="signup()">
+               <span md-colors='{color:"primary"}'>{{registrationMsg}}</span>
+               <md-input-container layout="column">
+               <input ng-model="user.userName" type="text" placeholder="User Name" required>
+             </md-input-container>
+           <md-input-container layout="column">
+               <input ng-model="user.firstName" type="text" placeholder="First Name" required>
+             </md-input-container>
+           <md-input-container layout="column">
+               <input ng-model="user.lastName" type="text" placeholder="Last Name" required>
+             </md-input-container>
+
+               <md-input-container layout="column">
+               <input ng-model="user.password" type="password" md-focus-on-select placeholder="Password" required>
+             </md-input-container>
+              <md-button class="md-raised md-primary" type="submit">Register
+               </md-button>
+            <md-button class="regbtn"><a class="decorator-none" ui-sref='sign_in'>Login</a>
+               </md-button>
+       </form>
+      </div>
+
+</div>

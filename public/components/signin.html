@@ -1,0 +1,22 @@
+<div layout="row"  layout-align="center center">
+      <div flex="25" class="md-inline-form" layout-padding>
+
+      <form ng-submit="signin()">
+
+               <md-input-container layout="column">
+                   <label>User Name</label>
+               <input ng-model="user.userName" type="text"required>
+             </md-input-container>
+
+               <md-input-container layout="column">
+               <input ng-model="user.password" type="password" md-focus-on-select placeholder="Password" required>
+             </md-input-container>
+               <md-button class="md-raised md-primary" type="submit">Login
+               </md-button>
+              <md-button class="regbtn"><a class="decorator-none" ui-sref='sign_up'>Register</a>
+               </md-button>
+       </form>
+
+      </div>
+
+</div>

@@ -1,0 +1,39 @@
+.md-button {
+  padding: 0 6px 0 6px;
+  margin: 0px 0px 6px 0px;
+  min-width: 88px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: none;
+  text-decoration:none;
+  border: none;
+  outline: none;
+}
+
+.regbtn{
+  padding: 0 6px 0 6px;
+  margin: 0px 0px 6px 0px;
+  min-width: 88px;
+  border-radius: 6px;
+  font-size: 14px;
+  color:white;
+  text-align: center;
+  text-transform: none;
+  text-decoration:none;
+  border: none;
+  outline: none;
+  background-color:#5cb85c;
+}
+
+.regbtn:not([disabled]):hover{
+   background-color:#5cb85c;
+   color:white;
+}
+.md-input-container{
+    padding: 0px;
+}
+.decorator-none{
+  text-decoration: none;
+  color: white;
+}
