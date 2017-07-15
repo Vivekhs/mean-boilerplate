@@ -13,7 +13,7 @@ var users = require('./routes/users');
 
 var config = require('./util/config');
 var login = require('./routes/login');
-console.log("my edit");
+//console.log("my edit");
 var connectionString = config.connectionString;
 
 var app = express();
